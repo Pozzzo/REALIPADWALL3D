@@ -1,0 +1,38 @@
+[2024-10-10T14:21:19.811Z] debug: [twx-studio:upgrade:WALL3D_IPAD_OFICIAL] Begin upgrade of project
+[2024-10-10T14:21:19.812Z] info: [twx-studio:upgrade:WALL3D_IPAD_OFICIAL] Upgrading project
+[2024-10-10T14:21:19.813Z] debug: [twx-studio:upgrade:WALL3D_IPAD_OFICIAL] Remove all the src-scaffold files from src
+[2024-10-10T14:21:19.814Z] debug: [twx-studio:upgrade:WALL3D_IPAD_OFICIAL] Deleting settings.path
+[2024-10-10T14:21:19.814Z] debug: [twx-studio:upgrade:WALL3D_IPAD_OFICIAL] Deleting settings.studioPath
+[2024-10-10T14:21:19.814Z] debug: [twx-studio:upgrade:WALL3D_IPAD_OFICIAL] C:\Users\dpozo\Documents\VuforiaStudio\Projects\WALL3D_IPAD_OFICIAL\src\shared\components\Data.json
+[2024-10-10T14:21:19.814Z] debug: [twx-studio:upgrade:WALL3D_IPAD_OFICIAL] C:\Users\dpozo\Documents\VuforiaStudio\Projects\WALL3D_IPAD_OFICIAL\src\shared\components\Device.json
+[2024-10-10T14:21:19.815Z] debug: [twx-studio:upgrade:WALL3D_IPAD_OFICIAL] Unable to migrate application parameters; none exist in project's appConfig.json.
+[2024-10-10T14:21:19.815Z] debug: [twx-studio:upgrade:WALL3D_IPAD_OFICIAL] Migrate service bindings for view
+[2024-10-10T14:21:19.815Z] debug: [twx-studio:upgrade:WALL3D_IPAD_OFICIAL] Updating bindings in view: 
+[2024-10-10T14:21:19.822Z] debug: [twx-studio:upgrade:WALL3D_IPAD_OFICIAL] Updating bindings in the Home json, file contents: {"attributes":{"twx-widget":"","viewtype":"ar","is-widget-container":"true"},"children":[{"name":"twx-container-content","children":[{"attributes":{"twx-widget":"","translation-key":"@ptc/ves-ar-extension:3D Container","is-widget-container":"true"},"name":"twx-dt-view","children":[{"name":"twx-container-content"}]},{"attributes":{"twx-widget":"","translation-key":"@ptc/ves-ar-extension:2D Overlay","is-widget-container":"true"},"name":"twx-overlay","children":[{"name":"twx-container-content","children":[{"attributes":{"twx-widget":"","translation-key":"@ptc/ves-ar-extension:Top Panel","position":"top","is-widget-container":"true"},"name":"twx-overlay-container","children":[{"name":"twx-container-content"}]},{"attributes":{"twx-widget":"","translation-key":"@ptc/ves-ar-extension:2D Body"},"name":"twx-overlay-body","children":[{"name":"twx-container-content","children":[{"attributes":{"twx-widget":"","translation-key":"@ptc/ves-ar-extension:Left Panel","position":"left","is-widget-container":"true"},"name":"twx-overlay-container","children":[{"name":"twx-container-content"}]},{"attributes":{"twx-widget":"","translation-key":"@ptc/ves-ar-extension:Center Panel","position":"center","is-widget-container":"true"},"name":"twx-overlay-container","children":[{"name":"twx-container-content"}]},{"attributes":{"twx-widget":"","translation-key":"@ptc/ves-ar-extension:Right Panel","position":"right","is-widget-container":"true"},"name":"twx-overlay-container","children":[{"name":"twx-container-content"}]}]}]},{"attributes":{"twx-widget":"","translation-key":"@ptc/ves-ar-extension:Bottom Panel","position":"bottom","is-widget-container":"true"},"name":"twx-overlay-container","children":[{"name":"twx-container-content"}]}]}]}]},{"name":"twx-view-data"}],"name":"twx-view"}
+[2024-10-10T14:21:19.823Z] debug: [twx-studio:upgrade:WALL3D_IPAD_OFICIAL] Unable to update the metadata.json file, the file was not found.
+[2024-10-10T14:21:19.823Z] debug: [twx-studio:upgrade:WALL3D_IPAD_OFICIAL] Unable to update the metadata.json file, it was not found at C:\Users\dpozo\Documents\VuforiaStudio\Projects\WALL3D_IPAD_OFICIAL\src\shared\components\metadata.json
+[2024-10-10T14:21:19.824Z] debug: [twx-studio:upgrade:WALL3D_IPAD_OFICIAL] Contents of view before upgrading
+[2024-10-10T14:21:19.824Z] debug: [twx-studio:upgrade:WALL3D_IPAD_OFICIAL] Unable to update the metadata.json file, it was not found at C:\Users\dpozo\Documents\VuforiaStudio\Projects\WALL3D_IPAD_OFICIAL\src\shared\components\metadata.json
+[2024-10-10T14:21:19.825Z] warn: [twx-studio:upgrade:WALL3D_IPAD_OFICIAL] Wasn't able to migrate the data in
+[2024-10-10T14:21:19.825Z] debug: [twx-studio:upgrade:WALL3D_IPAD_OFICIAL] Cached device dimensions are obsolete and will be deleted:
+[2024-10-10T14:21:19.836Z] debug: [twx-studio:upgrade:WALL3D_IPAD_OFICIAL] File not found during migration of handler to handler-path C:\Users\dpozo\Documents\VuforiaStudio\Projects\WALL3D_IPAD_OFICIAL\src\shared\components\Data.json
+[2024-10-10T14:21:19.836Z] debug: [twx-studio:upgrade:WALL3D_IPAD_OFICIAL] Moving .glb resources for project: WALL3D_IPAD_OFICIAL
+[2024-10-10T14:21:19.836Z] debug: [twx-studio:upgrade:WALL3D_IPAD_OFICIAL] No model target found!
+[2024-10-10T14:21:19.837Z] debug: [twx-studio:upgrade:WALL3D_IPAD_OFICIAL] starting mt upgrade
+[2024-10-10T14:21:19.837Z] debug: [twx-studio:upgrade:WALL3D_IPAD_OFICIAL] finishing mt upgrade
+[2024-10-10T14:21:19.837Z] debug: [twx-studio:upgrade:WALL3D_IPAD_OFICIAL] Make sure there are not any stale files lying around
+[2024-10-10T14:21:19.838Z] debug: [twx-studio:upgrade:WALL3D_IPAD_OFICIAL] Create .gitignore for project dir
+[2024-10-10T14:21:19.838Z] debug: [twx-studio:upgrade:WALL3D_IPAD_OFICIAL] Copying /src/**/* to project, overwrite=false
+[2024-10-10T14:21:19.839Z] debug: [twx-studio:upgrade:WALL3D_IPAD_OFICIAL] Copying /**/* to project, skip /src/**/*,  overwrite=true
+[2024-10-10T14:21:19.873Z] debug: [twx-studio:upgrade:WALL3D_IPAD_OFICIAL] Copy of project files complete
+[2024-10-10T14:21:19.873Z] debug: [twx-studio:upgrade:WALL3D_IPAD_OFICIAL] Updating version to 
+[2024-10-10T14:21:19.873Z] debug: [twx-studio:upgrade:WALL3D_IPAD_OFICIAL] onupgrade sucessful, now build the project
+[2024-10-10T14:21:19.874Z] debug: [twx-studio:upgrade:WALL3D_IPAD_OFICIAL] BEGIN buildApp
+[2024-10-10T14:21:19.874Z] debug: [twx-studio:upgrade:WALL3D_IPAD_OFICIAL] write settings
+[2024-10-10T14:21:19.874Z] debug: [twx-studio:upgrade:WALL3D_IPAD_OFICIAL] copy runtime extensions
+[2024-10-10T14:21:20.010Z] debug: [twx-studio:upgrade:WALL3D_IPAD_OFICIAL] packageThemeSet
+[2024-10-10T14:21:22.096Z] debug: [twx-studio:upgrade:WALL3D_IPAD_OFICIAL] onBuild
+[2024-10-10T14:21:22.096Z] info: [twx-studio:upgrade:WALL3D_IPAD_OFICIAL] Building ves-ar-extension app:
+[2024-10-10T14:21:22.100Z] debug: [twx-studio:upgrade:WALL3D_IPAD_OFICIAL] pathDir
+[2024-10-10T14:21:23.553Z] debug: [twx-studio:upgrade:WALL3D_IPAD_OFICIAL] END buildApp
+[2024-10-10T14:21:23.554Z] debug: [twx-studio:upgrade:WALL3D_IPAD_OFICIAL] Build succeeded.

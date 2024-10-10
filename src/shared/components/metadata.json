@@ -1,0 +1,526 @@
+{
+  "name": "WALL3D_IPAD_OFICIAL",
+  "version": "1.0.0",
+  "requires": [
+    "w600dp",
+    "spatial-tracking"
+  ],
+  "experiences": [
+    {
+      "vumark": "",
+      "experienceType": "none",
+      "id": 1,
+      "index-keys": [],
+      "title": {
+        "en": "Wall3D"
+      },
+      "description": {
+        "en": "",
+        "en-US": ""
+      },
+      "requires": [
+        "AR-tracking"
+      ],
+      "tags": [],
+      "icon": "",
+      "viewName": "Home",
+      "url-template": "index.html?expId=1",
+      "entryPoint": "index.html?expId=1",
+      "thumbnail": "",
+      "thingTemplateName": ""
+    }
+  ],
+  "accessType": "private",
+  "widgetsUsage": [
+    {
+      "timestamp": "2024-09-30T17:06:48.264Z",
+      "action": "PUBLISH",
+      "usage": {
+        "twx-view": 1,
+        "twx-dt-view": 1,
+        "twx-dt-image": 1,
+        "twx-dt-model": 4,
+        "twx-dt-target-spatial": 1
+      }
+    },
+    {
+      "timestamp": "2024-10-01T20:55:01.877Z",
+      "action": "PUBLISH",
+      "usage": {
+        "twx-view": 1,
+        "twx-dt-view": 1,
+        "twx-dt-image": 1,
+        "twx-dt-model": 9,
+        "twx-dt-target-spatial": 1
+      }
+    },
+    {
+      "timestamp": "2024-10-01T21:19:05.171Z",
+      "action": "PUBLISH",
+      "usage": {
+        "twx-view": 1,
+        "twx-dt-view": 1,
+        "twx-dt-image": 1,
+        "twx-dt-model": 9,
+        "twx-dt-target-spatial": 1
+      }
+    },
+    {
+      "timestamp": "2024-10-02T17:16:40.928Z",
+      "action": "PUBLISH",
+      "usage": {
+        "twx-view": 1,
+        "twx-dt-view": 1,
+        "twx-dt-image": 2,
+        "twx-dt-model": 19,
+        "twx-dt-target-spatial": 1,
+        "twx-dt-modelitem": 2
+      }
+    },
+    {
+      "timestamp": "2024-10-02T21:39:30.102Z",
+      "action": "PUBLISH",
+      "usage": {
+        "twx-view": 1,
+        "twx-dt-view": 1,
+        "twx-dt-image": 2,
+        "twx-dt-model": 31,
+        "twx-dt-target-spatial": 1,
+        "twx-dt-modelitem": 3
+      }
+    },
+    {
+      "timestamp": "2024-10-02T21:50:31.662Z",
+      "action": "PUBLISH",
+      "usage": {
+        "twx-view": 1,
+        "twx-dt-view": 1,
+        "twx-dt-image": 2,
+        "twx-dt-model": 31,
+        "twx-dt-target-spatial": 1,
+        "twx-dt-modelitem": 1
+      }
+    },
+    {
+      "timestamp": "2024-10-02T22:08:35.502Z",
+      "action": "PUBLISH",
+      "usage": {
+        "twx-view": 1,
+        "twx-dt-view": 1,
+        "twx-dt-image": 1,
+        "twx-dt-model": 33,
+        "twx-dt-target-spatial": 1,
+        "twx-dt-modelitem": 1
+      }
+    },
+    {
+      "timestamp": "2024-10-02T22:12:37.789Z",
+      "action": "PUBLISH",
+      "usage": {
+        "twx-view": 1,
+        "twx-dt-view": 1,
+        "twx-dt-image": 1,
+        "twx-dt-model": 33,
+        "twx-dt-target-spatial": 1,
+        "twx-dt-modelitem": 1
+      }
+    },
+    {
+      "timestamp": "2024-10-02T22:19:42.169Z",
+      "action": "PUBLISH",
+      "usage": {
+        "twx-view": 1,
+        "twx-dt-view": 1,
+        "twx-dt-image": 2,
+        "twx-dt-model": 31,
+        "twx-dt-target-spatial": 1,
+        "twx-dt-modelitem": 1
+      }
+    },
+    {
+      "timestamp": "2024-10-02T22:30:32.511Z",
+      "action": "PUBLISH",
+      "usage": {
+        "twx-view": 1,
+        "twx-dt-view": 1,
+        "twx-dt-image": 1,
+        "twx-dt-model": 31,
+        "twx-dt-target-spatial": 1,
+        "twx-dt-modelitem": 1
+      }
+    },
+    {
+      "timestamp": "2024-10-02T22:31:09.797Z",
+      "action": "PUBLISH",
+      "usage": {
+        "twx-view": 1,
+        "twx-dt-view": 1,
+        "twx-dt-image": 1,
+        "twx-dt-model": 31,
+        "twx-dt-target-spatial": 1,
+        "twx-dt-modelitem": 1
+      }
+    },
+    {
+      "timestamp": "2024-10-02T22:32:27.718Z",
+      "action": "PUBLISH",
+      "usage": {
+        "twx-view": 1,
+        "twx-dt-view": 1,
+        "twx-dt-image": 1,
+        "twx-dt-model": 31,
+        "twx-dt-target-spatial": 1,
+        "twx-dt-modelitem": 1
+      }
+    },
+    {
+      "timestamp": "2024-10-02T22:34:57.961Z",
+      "action": "PUBLISH",
+      "usage": {
+        "twx-view": 1,
+        "twx-dt-view": 1,
+        "twx-dt-image": 1,
+        "twx-dt-model": 31,
+        "twx-dt-target-spatial": 1,
+        "twx-dt-modelitem": 1
+      }
+    },
+    {
+      "timestamp": "2024-10-03T13:29:27.948Z",
+      "action": "PUBLISH",
+      "usage": {
+        "twx-view": 1,
+        "twx-dt-view": 1,
+        "twx-dt-image": 1,
+        "twx-dt-model": 31,
+        "twx-dt-target-spatial": 1,
+        "twx-dt-modelitem": 1
+      }
+    },
+    {
+      "timestamp": "2024-10-03T13:31:56.736Z",
+      "action": "PUBLISH",
+      "usage": {
+        "twx-view": 1,
+        "twx-dt-view": 1,
+        "twx-dt-image": 1,
+        "twx-dt-model": 31,
+        "twx-dt-target-spatial": 1,
+        "twx-dt-modelitem": 1
+      }
+    },
+    {
+      "timestamp": "2024-10-03T13:47:08.332Z",
+      "action": "PUBLISH",
+      "usage": {
+        "twx-view": 1,
+        "twx-dt-view": 1,
+        "twx-dt-image": 1,
+        "twx-dt-model": 31,
+        "twx-dt-target-spatial": 1,
+        "twx-dt-modelitem": 2
+      }
+    },
+    {
+      "timestamp": "2024-10-03T13:49:48.171Z",
+      "action": "PUBLISH",
+      "usage": {
+        "twx-view": 1,
+        "twx-dt-view": 1,
+        "twx-dt-image": 2,
+        "twx-dt-model": 31,
+        "twx-dt-target-spatial": 1,
+        "twx-dt-modelitem": 2
+      }
+    },
+    {
+      "timestamp": "2024-10-03T13:51:59.178Z",
+      "action": "PUBLISH",
+      "usage": {
+        "twx-view": 1,
+        "twx-dt-view": 1,
+        "twx-dt-image": 2,
+        "twx-dt-model": 31,
+        "twx-dt-target-spatial": 1,
+        "twx-dt-modelitem": 2
+      }
+    },
+    {
+      "timestamp": "2024-10-03T14:41:16.219Z",
+      "action": "PUBLISH",
+      "usage": {
+        "twx-view": 1,
+        "twx-dt-view": 1,
+        "twx-dt-image": 2,
+        "twx-dt-model": 31,
+        "twx-dt-target-spatial": 1,
+        "twx-dt-modelitem": 2
+      }
+    },
+    {
+      "timestamp": "2024-10-03T21:01:28.717Z",
+      "action": "PUBLISH",
+      "usage": {
+        "twx-view": 1,
+        "twx-dt-view": 1,
+        "twx-dt-model": 31,
+        "twx-dt-target-spatial": 1,
+        "twx-dt-modelitem": 2,
+        "twx-dt-image": 3
+      }
+    },
+    {
+      "timestamp": "2024-10-03T21:11:20.638Z",
+      "action": "PUBLISH",
+      "usage": {
+        "twx-view": 1,
+        "twx-dt-view": 1,
+        "twx-dt-model": 27,
+        "twx-dt-target-spatial": 1,
+        "twx-dt-modelitem": 2,
+        "twx-dt-image": 3
+      }
+    },
+    {
+      "timestamp": "2024-10-03T21:12:41.418Z",
+      "action": "PUBLISH",
+      "usage": {
+        "twx-view": 1,
+        "twx-dt-view": 1,
+        "twx-dt-model": 27,
+        "twx-dt-target-spatial": 1,
+        "twx-dt-modelitem": 2,
+        "twx-dt-image": 3
+      }
+    },
+    {
+      "timestamp": "2024-10-03T21:14:25.019Z",
+      "action": "PUBLISH",
+      "usage": {
+        "twx-view": 1,
+        "twx-dt-view": 1,
+        "twx-dt-model": 27,
+        "twx-dt-target-spatial": 1,
+        "twx-dt-modelitem": 2,
+        "twx-dt-image": 3
+      }
+    },
+    {
+      "timestamp": "2024-10-03T21:15:24.331Z",
+      "action": "PUBLISH",
+      "usage": {
+        "twx-view": 1,
+        "twx-dt-view": 1,
+        "twx-dt-model": 27,
+        "twx-dt-target-spatial": 1,
+        "twx-dt-modelitem": 2,
+        "twx-dt-image": 3
+      }
+    },
+    {
+      "timestamp": "2024-10-03T21:21:58.487Z",
+      "action": "PUBLISH",
+      "usage": {
+        "twx-view": 1,
+        "twx-dt-view": 1,
+        "twx-dt-model": 27,
+        "twx-dt-target-spatial": 1,
+        "twx-dt-modelitem": 2,
+        "twx-dt-image": 3
+      }
+    },
+    {
+      "timestamp": "2024-10-03T21:38:38.624Z",
+      "action": "PUBLISH",
+      "usage": {
+        "twx-view": 1,
+        "twx-dt-view": 1,
+        "twx-dt-model": 25,
+        "twx-dt-target-spatial": 1,
+        "twx-dt-modelitem": 2,
+        "twx-dt-image": 3
+      }
+    },
+    {
+      "timestamp": "2024-10-04T20:17:39.519Z",
+      "action": "PUBLISH",
+      "usage": {
+        "twx-view": 1,
+        "twx-dt-view": 1,
+        "twx-dt-model": 26,
+        "twx-dt-target-spatial": 1,
+        "twx-dt-modelitem": 2,
+        "twx-dt-image": 2
+      }
+    },
+    {
+      "timestamp": "2024-10-04T20:17:57.361Z",
+      "action": "PUBLISH",
+      "usage": {
+        "twx-view": 1,
+        "twx-dt-view": 1,
+        "twx-dt-model": 26,
+        "twx-dt-target-spatial": 1,
+        "twx-dt-modelitem": 2,
+        "twx-dt-image": 2
+      }
+    },
+    {
+      "timestamp": "2024-10-09T14:33:03.848Z",
+      "action": "PUBLISH",
+      "usage": {
+        "twx-view": 1,
+        "twx-dt-view": 1,
+        "twx-dt-model": 26,
+        "twx-dt-target-spatial": 1,
+        "twx-dt-modelitem": 22,
+        "twx-dt-image": 4,
+        "twx-dt-label": 4
+      }
+    },
+    {
+      "timestamp": "2024-10-09T21:00:18.036Z",
+      "action": "PUBLISH",
+      "usage": {
+        "twx-view": 1,
+        "twx-dt-view": 1,
+        "twx-dt-model": 23,
+        "twx-dt-target-spatial": 1,
+        "twx-dt-modelitem": 20,
+        "twx-dt-image": 4,
+        "twx-dt-label": 4
+      }
+    },
+    {
+      "timestamp": "2024-10-09T21:06:36.300Z",
+      "action": "PUBLISH",
+      "usage": {
+        "twx-view": 1,
+        "twx-dt-view": 1,
+        "twx-dt-model": 23,
+        "twx-dt-target-spatial": 1,
+        "twx-dt-modelitem": 20,
+        "twx-dt-image": 4,
+        "twx-dt-label": 4
+      }
+    },
+    {
+      "timestamp": "2024-10-10T13:14:43.362Z",
+      "action": "PUBLISH",
+      "usage": {
+        "twx-view": 1,
+        "twx-dt-view": 1,
+        "twx-dt-model": 23,
+        "twx-dt-target-spatial": 1,
+        "twx-dt-modelitem": 20,
+        "twx-dt-image": 4,
+        "twx-dt-label": 4
+      }
+    },
+    {
+      "timestamp": "2024-10-10T13:44:51.136Z",
+      "action": "PUBLISH",
+      "usage": {
+        "twx-view": 1,
+        "twx-dt-view": 1,
+        "twx-dt-model": 24,
+        "twx-dt-target-spatial": 1,
+        "twx-dt-modelitem": 20,
+        "twx-dt-image": 4,
+        "twx-dt-label": 4
+      }
+    },
+    {
+      "timestamp": "2024-10-10T13:45:15.365Z",
+      "action": "PUBLISH",
+      "usage": {
+        "twx-view": 1,
+        "twx-dt-view": 1,
+        "twx-dt-model": 23,
+        "twx-dt-target-spatial": 1,
+        "twx-dt-modelitem": 20,
+        "twx-dt-image": 4,
+        "twx-dt-label": 4
+      }
+    },
+    {
+      "timestamp": "2024-10-10T13:54:45.653Z",
+      "action": "PUBLISH",
+      "usage": {
+        "twx-view": 1,
+        "twx-dt-view": 1,
+        "twx-dt-model": 28,
+        "twx-dt-target-spatial": 1,
+        "twx-dt-modelitem": 20,
+        "twx-dt-image": 4,
+        "twx-dt-label": 4
+      }
+    },
+    {
+      "timestamp": "2024-10-10T19:46:22.644Z",
+      "action": "PUBLISH",
+      "usage": {
+        "twx-view": 1,
+        "twx-dt-view": 1,
+        "twx-dt-model": 28,
+        "twx-dt-target-spatial": 1,
+        "twx-dt-modelitem": 19,
+        "twx-dt-image": 4,
+        "twx-dt-label": 4
+      }
+    },
+    {
+      "timestamp": "2024-10-10T19:46:56.176Z",
+      "action": "PUBLISH",
+      "usage": {
+        "twx-view": 1,
+        "twx-dt-view": 1,
+        "twx-dt-model": 28,
+        "twx-dt-target-spatial": 1,
+        "twx-dt-modelitem": 19,
+        "twx-dt-image": 4,
+        "twx-dt-label": 4
+      }
+    },
+    {
+      "timestamp": "2024-10-10T20:00:04.633Z",
+      "action": "PUBLISH",
+      "usage": {
+        "twx-view": 1,
+        "twx-dt-view": 1,
+        "twx-dt-model": 28,
+        "twx-dt-target-spatial": 1,
+        "twx-dt-modelitem": 19,
+        "twx-dt-image": 4,
+        "twx-dt-label": 4
+      }
+    },
+    {
+      "timestamp": "2024-10-10T20:13:47.192Z",
+      "action": "PUBLISH",
+      "usage": {
+        "twx-view": 1,
+        "twx-dt-view": 1,
+        "twx-dt-model": 28,
+        "twx-dt-target-spatial": 1,
+        "twx-dt-modelitem": 19,
+        "twx-dt-image": 4,
+        "twx-dt-label": 4
+      }
+    },
+    {
+      "timestamp": "2024-10-10T20:51:33.338Z",
+      "action": "LATEST_SAVE",
+      "usage": {
+        "twx-view": 1,
+        "twx-dt-view": 1,
+        "twx-dt-model": 28,
+        "twx-dt-target-spatial": 1,
+        "twx-dt-modelitem": 19,
+        "twx-dt-image": 4,
+        "twx-dt-label": 4
+      }
+    }
+  ],
+  "designedfor": []
+}

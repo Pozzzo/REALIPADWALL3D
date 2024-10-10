@@ -1,0 +1,1346 @@
+{
+  "attributes": {
+    "twx-widget": "",
+    "widget-id": "view-1",
+    "widget-name": "view-1",
+    "is-widget-container": "true",
+    "viewtype": "ar"
+  },
+  "children": [
+    {
+      "name": "twx-container-content",
+      "children": [
+        {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "3DContainer-1",
+            "widget-name": "3D Container",
+            "is-widget-container": "true",
+            "dropshadow": "true"
+          },
+          "name": "twx-dt-view",
+          "children": [
+            {
+              "name": "twx-container-content",
+              "children": [
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "model-1",
+                    "widget-name": "model-1",
+                    "is-widget-container": "true",
+                    "src": "Uploaded/HART.pvz",
+                    "scale": "1.3000",
+                    "x": "-0.9297",
+                    "y": "1.4302",
+                    "z": "-0.1572",
+                    "rx": "0.00",
+                    "ry": "0.00",
+                    "rz": "0.00"
+                  },
+                  "name": "twx-dt-model",
+                  "children": [
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "model-4",
+                    "widget-name": "model-4",
+                    "is-widget-container": "true",
+                    "src": "Uploaded/G_IC03_XX_22589V.pvz",
+                    "scale": "0.9000",
+                    "x": "-0.3364",
+                    "y": "1.2591",
+                    "z": "-0.1864",
+                    "rx": "0.00",
+                    "ry": "0.00",
+                    "rz": "0.00"
+                  },
+                  "name": "twx-dt-model",
+                  "children": [
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "spatialTarget-1",
+                    "widget-name": "spatialTarget-1",
+                    "x": "0.0000",
+                    "y": "0.0000",
+                    "z": "0.0000",
+                    "rx": "-90.00",
+                    "ry": "0.00",
+                    "rz": "0.00"
+                  },
+                  "name": "twx-dt-target-spatial"
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "model-5",
+                    "widget-name": "model-5",
+                    "is-widget-container": "true",
+                    "src": "Uploaded/p71029tgba_050_gi_l100.pvz",
+                    "scale": "1.0000",
+                    "x": "0.0011",
+                    "y": "1.2215",
+                    "z": "-0.1512",
+                    "rx": "0.00",
+                    "ry": "0.00",
+                    "rz": "0.00"
+                  },
+                  "name": "twx-dt-model",
+                  "children": [
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "model-6",
+                    "widget-name": "model-6",
+                    "is-widget-container": "true",
+                    "src": "Uploaded/p71029tgba_050_gi_l100.pvz",
+                    "scale": "1.0000",
+                    "x": "-0.7761",
+                    "y": "1.2122",
+                    "z": "-0.1526",
+                    "rx": "0.00",
+                    "ry": "0.00",
+                    "rz": "0.00"
+                  },
+                  "name": "twx-dt-model",
+                  "children": [
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "model-3",
+                    "widget-name": "model-3",
+                    "is-widget-container": "true",
+                    "src": "Uploaded/Display_Ens_V4.pvz",
+                    "scale": "1.0000",
+                    "x": "-0.3135",
+                    "y": "1.4664",
+                    "z": "-0.1954",
+                    "rx": "0.00",
+                    "ry": "90.00",
+                    "rz": "0.00"
+                  },
+                  "name": "twx-dt-model",
+                  "children": [
+                    {
+                      "name": "twx-container-content",
+                      "children": [
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "modelItem-1",
+                            "widget-name": "modelItem-1",
+                            "is-widget-container": "true",
+                            "model": "model-3",
+                            "idpath": "/3",
+                            "scale": "1.0000",
+                            "x": "0.0012",
+                            "y": "0.0085",
+                            "z": "-0.0457",
+                            "rx": "0.00",
+                            "ry": "0.00",
+                            "rz": "0.00",
+                            "opacity": "0.5"
+                          },
+                          "name": "twx-dt-modelitem",
+                          "children": [
+                            {
+                              "name": "twx-container-content"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "model-9",
+                    "widget-name": "model-9",
+                    "is-widget-container": "true",
+                    "src": "Uploaded/PM240_V10.pvz",
+                    "scale": "1.0500",
+                    "x": "-0.4680",
+                    "y": "1.3821",
+                    "z": "-0.2446",
+                    "rx": "-90.00",
+                    "ry": "0.00",
+                    "rz": "1.22"
+                  },
+                  "name": "twx-dt-model",
+                  "children": [
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "model-10",
+                    "widget-name": "model-10",
+                    "is-widget-container": "true",
+                    "src": "Uploaded/6SL3255-0AA00-4JA2_3D_9886b14af1a5f0f104cad946f80b4f8e.pvz",
+                    "scale": "1.0500",
+                    "x": "-0.5390",
+                    "y": "1.5014",
+                    "z": "0.0183",
+                    "rx": "-90.00",
+                    "ry": "0.00",
+                    "rz": "0.00"
+                  },
+                  "name": "twx-dt-model",
+                  "children": [
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "model-8",
+                    "widget-name": "model-8",
+                    "is-widget-container": "true",
+                    "src": "Uploaded/Motor_V2.pvz",
+                    "scale": "5.0000",
+                    "x": "-0.5532",
+                    "y": "1.1040",
+                    "z": "-0.1987",
+                    "rx": "0.00",
+                    "ry": "0.00",
+                    "rz": "-176.30"
+                  },
+                  "name": "twx-dt-model",
+                  "children": [
+                    {
+                      "name": "twx-container-content",
+                      "children": [
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "modelItem-16",
+                            "widget-name": "modelItem-16",
+                            "is-widget-container": "true",
+                            "model": "model-8",
+                            "idpath": "/4",
+                            "scale": "1.0000",
+                            "x": "-0.0028",
+                            "y": "-0.0065",
+                            "z": "-0.0023",
+                            "rx": "0.00",
+                            "ry": "0.00",
+                            "rz": "0.00"
+                          },
+                          "name": "twx-dt-modelitem",
+                          "children": [
+                            {
+                              "name": "twx-container-content"
+                            }
+                          ]
+                        },
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "modelItem-21",
+                            "widget-name": "modelItem-21",
+                            "is-widget-container": "true",
+                            "model": "model-8",
+                            "idpath": "/3",
+                            "scale": "1.0000",
+                            "x": "-0.0028",
+                            "y": "-0.0065",
+                            "z": "-0.0023",
+                            "rx": "0.00",
+                            "ry": "0.00",
+                            "rz": "90.00"
+                          },
+                          "name": "twx-dt-modelitem",
+                          "children": [
+                            {
+                              "name": "twx-container-content"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "model-11",
+                    "widget-name": "model-11",
+                    "is-widget-container": "true",
+                    "src": "Uploaded/Motor_V2.pvz",
+                    "scale": "5.0000",
+                    "x": "-0.2936",
+                    "y": "1.1526",
+                    "z": "-0.1979",
+                    "rx": "0.00",
+                    "ry": "0.00",
+                    "rz": "0.00"
+                  },
+                  "name": "twx-dt-model",
+                  "children": [
+                    {
+                      "name": "twx-container-content",
+                      "children": [
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "modelItem-20",
+                            "widget-name": "modelItem-20",
+                            "is-widget-container": "true",
+                            "model": "model-11",
+                            "idpath": "/4",
+                            "scale": "1.0000",
+                            "x": "-0.0043",
+                            "y": "-0.0003",
+                            "z": "-0.0023",
+                            "rx": "0.00",
+                            "ry": "0.00",
+                            "rz": "0.00"
+                          },
+                          "name": "twx-dt-modelitem",
+                          "children": [
+                            {
+                              "name": "twx-container-content"
+                            }
+                          ]
+                        },
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "modelItem-22",
+                            "widget-name": "modelItem-22",
+                            "is-widget-container": "true",
+                            "model": "model-11",
+                            "idpath": "/3",
+                            "scale": "1.0000",
+                            "x": "-0.0043",
+                            "y": "-0.0003",
+                            "z": "-0.0023",
+                            "rx": "0.00",
+                            "ry": "0.00",
+                            "rz": "90.00"
+                          },
+                          "name": "twx-dt-modelitem",
+                          "children": [
+                            {
+                              "name": "twx-container-content"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "model-18",
+                    "widget-name": "model-18",
+                    "is-widget-container": "true",
+                    "src": "Uploaded/ESTRUCTURA_wALL.pvz",
+                    "scale": "1.0000",
+                    "x": "0.0000",
+                    "y": "1.5016",
+                    "z": "-0.4606",
+                    "rx": "-180.00",
+                    "ry": "-0.00",
+                    "rz": "180.00"
+                  },
+                  "name": "twx-dt-model",
+                  "children": [
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "model-19",
+                    "widget-name": "model-19",
+                    "is-widget-container": "true",
+                    "src": "Uploaded/Siemens Sitrans P.pvz",
+                    "scale": "0.7000",
+                    "x": "0.3251",
+                    "y": "1.4004",
+                    "z": "-0.1594",
+                    "rx": "0.00",
+                    "ry": "0.00",
+                    "rz": "0.00"
+                  },
+                  "name": "twx-dt-model",
+                  "children": [
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "model-28",
+                    "widget-name": "model-28",
+                    "is-widget-container": "true",
+                    "src": "Uploaded/suporte_Sensor.pvz",
+                    "scale": "1.0000",
+                    "x": "-0.7763",
+                    "y": "1.1891",
+                    "z": "-0.1526",
+                    "rx": "90.00",
+                    "ry": "-0.00",
+                    "rz": "-90.00"
+                  },
+                  "name": "twx-dt-model",
+                  "children": [
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "model-29",
+                    "widget-name": "model-29",
+                    "is-widget-container": "true",
+                    "src": "Uploaded/suporte_Sensor.pvz",
+                    "scale": "1.0000",
+                    "x": "0.0011",
+                    "y": "1.1955",
+                    "z": "-0.1509",
+                    "rx": "90.00",
+                    "ry": "-0.00",
+                    "rz": "-90.00"
+                  },
+                  "name": "twx-dt-model",
+                  "children": [
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "model-32",
+                    "widget-name": "model-32",
+                    "is-widget-container": "true",
+                    "src": "Uploaded/TELEVISOR4.pvz",
+                    "scale": "0.3000",
+                    "x": "0.3221",
+                    "y": "1.8039",
+                    "z": "-0.2050",
+                    "rx": "0.00",
+                    "ry": "0.00",
+                    "rz": "0.00"
+                  },
+                  "name": "twx-dt-model",
+                  "children": [
+                    {
+                      "name": "twx-container-content",
+                      "children": [
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "modelItem-6",
+                            "widget-name": "modelItem-6",
+                            "is-widget-container": "true",
+                            "model": "model-32",
+                            "idpath": "/41",
+                            "scale": "0.5000",
+                            "x": "0.3312",
+                            "y": "0.2480",
+                            "z": "0.0960",
+                            "rx": "-90.00",
+                            "ry": "0.00",
+                            "rz": "0.00"
+                          },
+                          "name": "twx-dt-modelitem",
+                          "children": [
+                            {
+                              "name": "twx-container-content"
+                            }
+                          ]
+                        },
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "modelItem-7",
+                            "widget-name": "modelItem-7",
+                            "is-widget-container": "true",
+                            "model": "model-32",
+                            "idpath": "/42",
+                            "scale": "0.5000",
+                            "x": "0.2478",
+                            "y": "0.2223",
+                            "z": "0.1100",
+                            "rx": "0.00",
+                            "ry": "0.00",
+                            "rz": "0.00"
+                          },
+                          "name": "twx-dt-modelitem",
+                          "children": [
+                            {
+                              "name": "twx-container-content"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "3DImage-2",
+                    "widget-name": "3DImage-2",
+                    "src": "Uploaded/ENCABEZADO1.png",
+                    "scale": "0.3000",
+                    "x": "-0.0220",
+                    "y": "2.2555",
+                    "z": "-0.0516",
+                    "rx": "0.00",
+                    "ry": "0.00",
+                    "rz": "0.00",
+                    "decal": "true"
+                  },
+                  "name": "twx-dt-image"
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "3DImage-1",
+                    "widget-name": "3DImage-1",
+                    "src": "Uploaded/DPP 6.png",
+                    "scale": "0.3400",
+                    "x": "-0.0090",
+                    "y": "1.5086",
+                    "z": "-0.2173",
+                    "rx": "0.00",
+                    "ry": "0.00",
+                    "rz": "0.00"
+                  },
+                  "name": "twx-dt-image"
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "model-12",
+                    "widget-name": "model-12",
+                    "is-widget-container": "true",
+                    "src": "Uploaded/PCSNEOCPU1.pvz",
+                    "scale": "1.1000",
+                    "x": "-1.0465",
+                    "y": "1.8983",
+                    "z": "-0.0266",
+                    "rx": "0.00",
+                    "ry": "0.00",
+                    "rz": "0.00"
+                  },
+                  "name": "twx-dt-model",
+                  "children": [
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "model-2",
+                    "widget-name": "model-2",
+                    "is-widget-container": "true",
+                    "src": "Uploaded/SITRANS-PROFIBUS.pvz",
+                    "scale": "1.0000",
+                    "x": "0.0771",
+                    "y": "1.5126",
+                    "z": "-0.1637",
+                    "rx": "0.00",
+                    "ry": "0.00",
+                    "rz": "0.00"
+                  },
+                  "name": "twx-dt-model",
+                  "children": [
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "model-15",
+                    "widget-name": "model-15",
+                    "is-widget-container": "true",
+                    "src": "Uploaded/TELEVISOR1.pvz",
+                    "scale": "0.3000",
+                    "x": "-0.4462",
+                    "y": "1.804",
+                    "z": "-0.2053",
+                    "rx": "0.00",
+                    "ry": "0.00",
+                    "rz": "0.00"
+                  },
+                  "name": "twx-dt-model",
+                  "children": [
+                    {
+                      "name": "twx-container-content",
+                      "children": [
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "modelItem-4",
+                            "widget-name": "modelItem-4",
+                            "is-widget-container": "true",
+                            "model": "model-15",
+                            "idpath": "/42",
+                            "scale": "0.5000",
+                            "x": "0.3084",
+                            "y": "0.2480",
+                            "z": "0.0960",
+                            "rx": "-90.00",
+                            "ry": "0.00",
+                            "rz": "0.00"
+                          },
+                          "name": "twx-dt-modelitem",
+                          "children": [
+                            {
+                              "name": "twx-container-content"
+                            }
+                          ]
+                        },
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "modelItem-5",
+                            "widget-name": "modelItem-5",
+                            "is-widget-container": "true",
+                            "model": "model-15",
+                            "idpath": "/41",
+                            "scale": "0.5000",
+                            "x": "0.2275",
+                            "y": "0.2187",
+                            "z": "0.1100",
+                            "rx": "0.00",
+                            "ry": "0.00",
+                            "rz": "0.00"
+                          },
+                          "name": "twx-dt-modelitem",
+                          "children": [
+                            {
+                              "name": "twx-container-content"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "model-16",
+                    "widget-name": "model-16",
+                    "is-widget-container": "true",
+                    "src": "Uploaded/TELEVISOR2.pvz",
+                    "scale": "0.3000",
+                    "x": "-0.18969999998807907",
+                    "y": "1.804",
+                    "z": "-0.20499999821186066",
+                    "rx": "0.00",
+                    "ry": "0.00",
+                    "rz": "0.00"
+                  },
+                  "name": "twx-dt-model",
+                  "children": [
+                    {
+                      "name": "twx-container-content",
+                      "children": [
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "modelItem-8",
+                            "widget-name": "modelItem-8",
+                            "is-widget-container": "true",
+                            "model": "model-16",
+                            "idpath": "/43",
+                            "scale": "0.5000",
+                            "x": "0.3048",
+                            "y": "0.2480",
+                            "z": "0.0960",
+                            "rx": "-90.00",
+                            "ry": "0.00",
+                            "rz": "0.00"
+                          },
+                          "name": "twx-dt-modelitem",
+                          "children": [
+                            {
+                              "name": "twx-container-content"
+                            }
+                          ]
+                        },
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "modelItem-9",
+                            "widget-name": "modelItem-9",
+                            "is-widget-container": "true",
+                            "model": "model-16",
+                            "idpath": "/42",
+                            "scale": "0.5000",
+                            "x": "0.3062",
+                            "y": "0.1502",
+                            "z": "0.0960",
+                            "rx": "-90.00",
+                            "ry": "0.00",
+                            "rz": "0.00"
+                          },
+                          "name": "twx-dt-modelitem",
+                          "children": [
+                            {
+                              "name": "twx-container-content"
+                            }
+                          ]
+                        },
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "modelItem-10",
+                            "widget-name": "modelItem-10",
+                            "is-widget-container": "true",
+                            "model": "model-16",
+                            "idpath": "/44",
+                            "scale": "0.5000",
+                            "x": "0.3048",
+                            "y": "0.0565",
+                            "z": "0.0960",
+                            "rx": "-90.00",
+                            "ry": "0.00",
+                            "rz": "0.00"
+                          },
+                          "name": "twx-dt-modelitem",
+                          "children": [
+                            {
+                              "name": "twx-container-content"
+                            }
+                          ]
+                        },
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "modelItem-11",
+                            "widget-name": "modelItem-11",
+                            "is-widget-container": "true",
+                            "model": "model-16",
+                            "idpath": "/45",
+                            "scale": "0.5000",
+                            "x": "0.2557",
+                            "y": "0.2216",
+                            "z": "0.1100",
+                            "rx": "0.00",
+                            "ry": "0.00",
+                            "rz": "0.00"
+                          },
+                          "name": "twx-dt-modelitem",
+                          "children": [
+                            {
+                              "name": "twx-container-content"
+                            }
+                          ]
+                        },
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "modelItem-12",
+                            "widget-name": "modelItem-12",
+                            "is-widget-container": "true",
+                            "model": "model-16",
+                            "idpath": "/41",
+                            "scale": "0.5000",
+                            "x": "0.2704",
+                            "y": "0.1223",
+                            "z": "0.1100",
+                            "rx": "0.00",
+                            "ry": "0.00",
+                            "rz": "0.00"
+                          },
+                          "name": "twx-dt-modelitem",
+                          "children": [
+                            {
+                              "name": "twx-container-content"
+                            }
+                          ]
+                        },
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "modelItem-14",
+                            "widget-name": "modelItem-14",
+                            "is-widget-container": "true",
+                            "model": "model-16",
+                            "idpath": "/46",
+                            "scale": "0.5000",
+                            "x": "0.2289",
+                            "y": "0.0284",
+                            "z": "0.1100",
+                            "rx": "0.00",
+                            "ry": "0.00",
+                            "rz": "0.00"
+                          },
+                          "name": "twx-dt-modelitem",
+                          "children": [
+                            {
+                              "name": "twx-container-content"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "model-26",
+                    "widget-name": "model-26",
+                    "is-widget-container": "true",
+                    "src": "Uploaded/TELEVISOR3.pvz",
+                    "scale": "0.3000",
+                    "x": "0.0727",
+                    "y": "1.804",
+                    "z": "-0.2050",
+                    "rx": "0.00",
+                    "ry": "0.00",
+                    "rz": "0.00"
+                  },
+                  "name": "twx-dt-model",
+                  "children": [
+                    {
+                      "name": "twx-container-content",
+                      "children": [
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "modelItem-15",
+                            "widget-name": "modelItem-15",
+                            "is-widget-container": "true",
+                            "model": "model-26",
+                            "idpath": "/43",
+                            "scale": "0.5000",
+                            "x": "0.3048",
+                            "y": "0.2480",
+                            "z": "0.0960",
+                            "rx": "-90.00",
+                            "ry": "0.00",
+                            "rz": "0.00"
+                          },
+                          "name": "twx-dt-modelitem",
+                          "children": [
+                            {
+                              "name": "twx-container-content"
+                            }
+                          ]
+                        },
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "modelItem-17",
+                            "widget-name": "modelItem-17",
+                            "is-widget-container": "true",
+                            "model": "model-26",
+                            "idpath": "/42",
+                            "scale": "0.5000",
+                            "x": "0.3048",
+                            "y": "0.1448",
+                            "z": "0.0960",
+                            "rx": "-90.00",
+                            "ry": "0.00",
+                            "rz": "0.00"
+                          },
+                          "name": "twx-dt-modelitem",
+                          "children": [
+                            {
+                              "name": "twx-container-content"
+                            }
+                          ]
+                        },
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "modelItem-18",
+                            "widget-name": "modelItem-18",
+                            "is-widget-container": "true",
+                            "model": "model-26",
+                            "idpath": "/41",
+                            "scale": "0.5000",
+                            "x": "0.2516",
+                            "y": "0.1147",
+                            "z": "0.1100",
+                            "rx": "0.00",
+                            "ry": "0.00",
+                            "rz": "0.00"
+                          },
+                          "name": "twx-dt-modelitem",
+                          "children": [
+                            {
+                              "name": "twx-container-content"
+                            }
+                          ]
+                        },
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "modelItem-19",
+                            "widget-name": "modelItem-19",
+                            "is-widget-container": "true",
+                            "model": "model-26",
+                            "idpath": "/44",
+                            "scale": "0.5000",
+                            "x": "0.2530",
+                            "y": "0.2197",
+                            "z": "0.1100",
+                            "rx": "0.00",
+                            "ry": "0.00",
+                            "rz": "0.00"
+                          },
+                          "name": "twx-dt-modelitem",
+                          "children": [
+                            {
+                              "name": "twx-container-content"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "pressureDisplay",
+                    "state-format-value": "text",
+                    "widget-name": "pressureDisplay",
+                    "is-widget-container": "true",
+                    "text": "100.00bar",
+                    "scale": "0.0850",
+                    "x": "0.3247",
+                    "y": "1.4009",
+                    "z": "-0.1218",
+                    "rx": "0.00",
+                    "ry": "0.00",
+                    "rz": "0.00"
+                  },
+                  "name": "twx-dt-label",
+                  "children": [
+                    {
+                      "attributes": {
+                        "databind-id": "db-1728480760972",
+                        "source-type": "data",
+                        "source-label": "",
+                        "source-name": "pressureDisplay",
+                        "source-item-type": "value",
+                        "source-item-name": "pressureDisplay",
+                        "source-item-field-name": "",
+                        "binding-type": "custom_field",
+                        "from-expression": "app.params['pressureDisplay']",
+                        "to-property": "text",
+                        "base-type": "",
+                        "shape": ""
+                      },
+                      "name": "twx-databind"
+                    },
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "3DImage-3",
+                    "widget-name": "3DImage-3",
+                    "src": "Uploaded/gltf_embedded_0-modified.png",
+                    "scale": "0.2000",
+                    "x": "-0.7326",
+                    "y": "1.3467",
+                    "z": "-0.1537",
+                    "rx": "0.00",
+                    "ry": "0.00",
+                    "rz": "0.00"
+                  },
+                  "name": "twx-dt-image"
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "temperatureDisplay",
+                    "state-format-value": "text",
+                    "widget-name": "temperatureDisplay",
+                    "is-widget-container": "true",
+                    "text": "200.00°",
+                    "class": "blanco",
+                    "scale": "0.3500",
+                    "x": "-0.7309",
+                    "y": "1.3485",
+                    "z": "-0.1531",
+                    "rx": "0.00",
+                    "ry": "0.00",
+                    "rz": "0.00"
+                  },
+                  "name": "twx-dt-label",
+                  "children": [
+                    {
+                      "attributes": {
+                        "databind-id": "db-1728339049589",
+                        "source-type": "data",
+                        "source-label": "",
+                        "source-name": "temperatureDisplay",
+                        "source-item-type": "value",
+                        "source-item-name": "temperatureDisplay",
+                        "source-item-field-name": "",
+                        "binding-type": "custom_field",
+                        "from-expression": "app.params['temperatureDisplay']",
+                        "to-property": "text",
+                        "base-type": "",
+                        "shape": ""
+                      },
+                      "name": "twx-databind"
+                    },
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "3DImage-4",
+                    "widget-name": "3DImage-4",
+                    "src": "Uploaded/gltf_embedded_0-modified.png",
+                    "scale": "0.2000",
+                    "x": "0.0616",
+                    "y": "1.3460",
+                    "z": "-0.1537",
+                    "rx": "0.00",
+                    "ry": "0.00",
+                    "rz": "0.00"
+                  },
+                  "name": "twx-dt-image"
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "dt-label-1",
+                    "state-format-value": "text",
+                    "widget-name": "dt-label-1",
+                    "is-widget-container": "true",
+                    "text": "200.00°",
+                    "class": "blanco",
+                    "scale": "0.3500",
+                    "x": "0.0635",
+                    "y": "1.3478",
+                    "z": "-0.1531",
+                    "rx": "0.00",
+                    "ry": "0.00",
+                    "rz": "0.00"
+                  },
+                  "name": "twx-dt-label",
+                  "children": [
+                    {
+                      "attributes": {
+                        "databind-id": "db-1728480993099",
+                        "source-type": "data",
+                        "source-label": "",
+                        "source-name": "temperatureDisplay",
+                        "source-item-type": "value",
+                        "source-item-name": "temperatureDisplay",
+                        "source-item-field-name": "",
+                        "binding-type": "custom_field",
+                        "from-expression": "app.params['temperatureDisplay']",
+                        "to-property": "text",
+                        "base-type": "",
+                        "shape": ""
+                      },
+                      "name": "twx-databind"
+                    },
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "model-13",
+                    "widget-name": "model-13",
+                    "is-widget-container": "true",
+                    "src": "Uploaded/7ME44543ED111BA3 v5.pvz",
+                    "scale": "0.3500",
+                    "x": "0.2352",
+                    "y": "1.2105",
+                    "z": "-0.1741",
+                    "rx": "0.00",
+                    "ry": "90.00",
+                    "rz": "90.01"
+                  },
+                  "name": "twx-dt-model",
+                  "children": [
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "dt-label-2",
+                    "state-format-value": "text",
+                    "widget-name": "dt-label-2",
+                    "is-widget-container": "true",
+                    "text": "100.00bar",
+                    "scale": "0.0600",
+                    "x": "0.2365",
+                    "y": "1.2487",
+                    "z": "-0.1350",
+                    "rx": "0.00",
+                    "ry": "0.00",
+                    "rz": "0.00"
+                  },
+                  "name": "twx-dt-label",
+                  "children": [
+                    {
+                      "attributes": {
+                        "databind-id": "db-1",
+                        "source-type": "data",
+                        "source-label": "",
+                        "source-name": "pressureDisplay",
+                        "source-item-type": "value",
+                        "source-item-name": "pressureDisplay",
+                        "source-item-field-name": "",
+                        "binding-type": "custom_field",
+                        "from-expression": "app.params['pressureDisplay']",
+                        "to-property": "text",
+                        "base-type": "",
+                        "shape": ""
+                      },
+                      "name": "twx-databind"
+                    },
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "model-20",
+                    "widget-name": "model-20",
+                    "is-widget-container": "true",
+                    "src": "Uploaded/Siemens Sitrans P_1.pvz",
+                    "scale": "0.5000",
+                    "x": "0.2359",
+                    "y": "1.2492",
+                    "z": "-0.1618",
+                    "rx": "0.00",
+                    "ry": "0.00",
+                    "rz": "0.00"
+                  },
+                  "name": "twx-dt-model",
+                  "children": [
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "model-21",
+                    "widget-name": "model-21",
+                    "is-widget-container": "true",
+                    "src": "Uploaded/basec.pvz",
+                    "scale": "0.0200",
+                    "x": "-1.0064",
+                    "y": "1.5051",
+                    "z": "-0.0048",
+                    "rx": "-90.00",
+                    "ry": "0.00",
+                    "rz": "0.00"
+                  },
+                  "name": "twx-dt-model",
+                  "children": [
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "model-23",
+                    "widget-name": "model-23",
+                    "is-widget-container": "true",
+                    "src": "Uploaded/CILINDRO.pvz",
+                    "scale": "0.0200",
+                    "x": "-1.0064",
+                    "y": "1.5132",
+                    "z": "-0.0051",
+                    "rx": "-90.00",
+                    "ry": "0.00",
+                    "rz": "0.00"
+                  },
+                  "name": "twx-dt-model",
+                  "children": [
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "model-24",
+                    "widget-name": "model-24",
+                    "is-widget-container": "true",
+                    "src": "Uploaded/Luz.pvz",
+                    "scale": "0.0200",
+                    "x": "-1.0064",
+                    "y": "1.6307",
+                    "z": "-0.0050",
+                    "rx": "-90.00",
+                    "ry": "0.00",
+                    "rz": "0.00"
+                  },
+                  "name": "twx-dt-model",
+                  "children": [
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "model-14",
+                    "widget-name": "model-14",
+                    "is-widget-container": "true",
+                    "src": "Uploaded/CILINDRO.pvz",
+                    "scale": "0.0200",
+                    "x": "-1.0064",
+                    "y": "1.5532",
+                    "z": "-0.0050",
+                    "rx": "-90.00",
+                    "ry": "0.00",
+                    "rz": "0.00"
+                  },
+                  "name": "twx-dt-model",
+                  "children": [
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "model-22",
+                    "widget-name": "model-22",
+                    "is-widget-container": "true",
+                    "src": "Uploaded/CILINDRO.pvz",
+                    "scale": "0.0200",
+                    "x": "-1.0064",
+                    "y": "1.5921",
+                    "z": "-0.0050",
+                    "rx": "-90.00",
+                    "ry": "0.00",
+                    "rz": "0.00"
+                  },
+                  "name": "twx-dt-model",
+                  "children": [
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "model-25",
+                    "widget-name": "model-25",
+                    "is-widget-container": "true",
+                    "src": "Uploaded/DELL_Poweredge-R710.glb",
+                    "scale": "0.3000",
+                    "x": "4.0700",
+                    "y": "1.349",
+                    "z": "4.9903",
+                    "rx": "0.00",
+                    "ry": "90.00",
+                    "rz": "0.00"
+                  },
+                  "name": "twx-dt-model",
+                  "children": [
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "model-17",
+                    "widget-name": "model-17",
+                    "is-widget-container": "true",
+                    "src": "Uploaded/DELL_Poweredge-R710.glb",
+                    "scale": "0.3000",
+                    "x": "4.4321",
+                    "y": "1.3494",
+                    "z": "4.9903",
+                    "rx": "0.00",
+                    "ry": "90.00",
+                    "rz": "0.00"
+                  },
+                  "name": "twx-dt-model",
+                  "children": [
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "twx-view-data"
+    }
+  ],
+  "name": "twx-view"
+}
