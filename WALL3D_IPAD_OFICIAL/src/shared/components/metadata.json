@@ -509,16 +509,16 @@
       }
     },
     {
-      "timestamp": "2024-10-10T20:51:33.338Z",
+      "timestamp": "2024-10-10T21:44:31.749Z",
       "action": "LATEST_SAVE",
       "usage": {
         "twx-view": 1,
         "twx-dt-view": 1,
         "twx-dt-model": 28,
         "twx-dt-target-spatial": 1,
-        "twx-dt-modelitem": 19,
+        "twx-dt-modelitem": 24,
         "twx-dt-image": 4,
-        "twx-dt-label": 4
+        "twx-dt-label": 5
       }
     }
   ],

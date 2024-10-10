@@ -368,9 +368,9 @@
                     "x": "0.0000",
                     "y": "1.5016",
                     "z": "-0.4606",
-                    "rx": "-180.00",
+                    "rx": "180.00",
                     "ry": "-0.00",
-                    "rz": "180.00"
+                    "rz": "-180.00"
                   },
                   "name": "twx-dt-model",
                   "children": [
@@ -413,7 +413,7 @@
                     "y": "1.1891",
                     "z": "-0.1526",
                     "rx": "90.00",
-                    "ry": "-0.00",
+                    "ry": "0.00",
                     "rz": "-90.00"
                   },
                   "name": "twx-dt-model",
@@ -435,7 +435,7 @@
                     "y": "1.1955",
                     "z": "-0.1509",
                     "rx": "90.00",
-                    "ry": "-0.00",
+                    "ry": "0.00",
                     "rz": "-90.00"
                   },
                   "name": "twx-dt-model",
@@ -601,7 +601,7 @@
                     "src": "Uploaded/TELEVISOR1.pvz",
                     "scale": "0.3000",
                     "x": "-0.4462",
-                    "y": "1.804",
+                    "y": "1.8040",
                     "z": "-0.2053",
                     "rx": "0.00",
                     "ry": "0.00",
@@ -670,9 +670,9 @@
                     "is-widget-container": "true",
                     "src": "Uploaded/TELEVISOR2.pvz",
                     "scale": "0.3000",
-                    "x": "-0.18969999998807907",
-                    "y": "1.804",
-                    "z": "-0.20499999821186066",
+                    "x": "-0.1897",
+                    "y": "1.8040",
+                    "z": "-0.2050",
                     "rx": "0.00",
                     "ry": "0.00",
                     "rz": "0.00"
@@ -833,7 +833,7 @@
                     "src": "Uploaded/TELEVISOR3.pvz",
                     "scale": "0.3000",
                     "x": "0.0727",
-                    "y": "1.804",
+                    "y": "1.8040",
                     "z": "-0.2050",
                     "rx": "0.00",
                     "ry": "0.00",
@@ -947,11 +947,11 @@
                     "state-format-value": "text",
                     "widget-name": "pressureDisplay",
                     "is-widget-container": "true",
-                    "text": "100.00bar",
-                    "scale": "0.0850",
-                    "x": "0.3247",
-                    "y": "1.4009",
-                    "z": "-0.1218",
+                    "text": "0 A",
+                    "scale": "0.1850",
+                    "x": "0.4898",
+                    "y": "1.2552",
+                    "z": "-0.1411",
                     "rx": "0.00",
                     "ry": "0.00",
                     "rz": "0.00"
@@ -960,20 +960,30 @@
                   "children": [
                     {
                       "attributes": {
-                        "databind-id": "db-1728480760972",
+                        "databind-id": "db-1728595883700",
                         "source-type": "data",
                         "source-label": "",
-                        "source-name": "pressureDisplay",
-                        "source-item-type": "value",
-                        "source-item-name": "pressureDisplay",
+                        "source-name": "Wall_Helper",
+                        "source-item-type": "event",
+                        "source-item-name": "DataChange.VFD_current",
                         "source-item-field-name": "",
-                        "binding-type": "custom_field",
-                        "from-expression": "app.params['pressureDisplay']",
+                        "binding-type": "collection_item_field",
+                        "from-expression": "app.mdl['Wall_Helper'].events['DataChange.VFD_current']['eventData'][0]['newValue'][0].value",
                         "to-property": "text",
                         "base-type": "",
                         "shape": ""
                       },
-                      "name": "twx-databind"
+                      "name": "twx-databind",
+                      "children": [
+                        {
+                          "attributes": {
+                            "filter-id": "df-1728596019094",
+                            "filter-name": "redondear",
+                            "filter-body": "return (parseInt(value*100))/100 + \" V\""
+                          },
+                          "name": "twx-data-filter"
+                        }
+                      ]
                     },
                     {
                       "name": "twx-container-content"
@@ -1017,20 +1027,30 @@
                   "children": [
                     {
                       "attributes": {
-                        "databind-id": "db-1728339049589",
+                        "databind-id": "db-1728596059834",
                         "source-type": "data",
                         "source-label": "",
-                        "source-name": "temperatureDisplay",
-                        "source-item-type": "value",
-                        "source-item-name": "temperatureDisplay",
+                        "source-name": "Wall_Helper",
+                        "source-item-type": "event",
+                        "source-item-name": "DataChange.Temp1",
                         "source-item-field-name": "",
-                        "binding-type": "custom_field",
-                        "from-expression": "app.params['temperatureDisplay']",
+                        "binding-type": "collection_item_field",
+                        "from-expression": "app.mdl['Wall_Helper'].events['DataChange.Temp1']['eventData'][0]['newValue'][0].value",
                         "to-property": "text",
                         "base-type": "",
                         "shape": ""
                       },
-                      "name": "twx-databind"
+                      "name": "twx-databind",
+                      "children": [
+                        {
+                          "attributes": {
+                            "filter-id": "df-1728596064182",
+                            "filter-name": "redondear",
+                            "filter-body": "return (parseInt(value*100))/100 + \" °C\""
+                          },
+                          "name": "twx-data-filter"
+                        }
+                      ]
                     },
                     {
                       "name": "twx-container-content"
@@ -1074,20 +1094,30 @@
                   "children": [
                     {
                       "attributes": {
-                        "databind-id": "db-1728480993099",
+                        "databind-id": "db-1728596031187",
                         "source-type": "data",
                         "source-label": "",
-                        "source-name": "temperatureDisplay",
-                        "source-item-type": "value",
-                        "source-item-name": "temperatureDisplay",
+                        "source-name": "Wall_Helper",
+                        "source-item-type": "event",
+                        "source-item-name": "DataChange.Temp2",
                         "source-item-field-name": "",
-                        "binding-type": "custom_field",
-                        "from-expression": "app.params['temperatureDisplay']",
+                        "binding-type": "collection_item_field",
+                        "from-expression": "app.mdl['Wall_Helper'].events['DataChange.Temp2']['eventData'][0]['newValue'][0].value",
                         "to-property": "text",
                         "base-type": "",
                         "shape": ""
                       },
-                      "name": "twx-databind"
+                      "name": "twx-databind",
+                      "children": [
+                        {
+                          "attributes": {
+                            "filter-id": "df-1728596040622",
+                            "filter-name": "redondear",
+                            "filter-body": "return (parseInt(value*100))/100 + \" °C\""
+                          },
+                          "name": "twx-data-filter"
+                        }
+                      ]
                     },
                     {
                       "name": "twx-container-content"
@@ -1123,9 +1153,9 @@
                     "state-format-value": "text",
                     "widget-name": "dt-label-2",
                     "is-widget-container": "true",
-                    "text": "100.00bar",
-                    "scale": "0.0600",
-                    "x": "0.2365",
+                    "text": "0 rpm",
+                    "scale": "0.1600",
+                    "x": "0.4885",
                     "y": "1.2487",
                     "z": "-0.1350",
                     "rx": "0.00",
@@ -1136,20 +1166,30 @@
                   "children": [
                     {
                       "attributes": {
-                        "databind-id": "db-1",
+                        "databind-id": "db-1728595890611",
                         "source-type": "data",
                         "source-label": "",
-                        "source-name": "pressureDisplay",
-                        "source-item-type": "value",
-                        "source-item-name": "pressureDisplay",
+                        "source-name": "Wall_Helper",
+                        "source-item-type": "event",
+                        "source-item-name": "DataChange.VFD_Speed_Read",
                         "source-item-field-name": "",
-                        "binding-type": "custom_field",
-                        "from-expression": "app.params['pressureDisplay']",
+                        "binding-type": "collection_item_field",
+                        "from-expression": "app.mdl['Wall_Helper'].events['DataChange.VFD_Speed_Read']['eventData'][0]['newValue'][0].value",
                         "to-property": "text",
                         "base-type": "",
                         "shape": ""
                       },
-                      "name": "twx-databind"
+                      "name": "twx-databind",
+                      "children": [
+                        {
+                          "attributes": {
+                            "filter-id": "df-1728595995127",
+                            "filter-name": "redondear",
+                            "filter-body": "return (parseInt(value*100))/100 + \" rpm\""
+                          },
+                          "name": "twx-data-filter"
+                        }
+                      ]
                     },
                     {
                       "name": "twx-container-content"
@@ -1196,7 +1236,32 @@
                   "name": "twx-dt-model",
                   "children": [
                     {
-                      "name": "twx-container-content"
+                      "name": "twx-container-content",
+                      "children": [
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "modelItem-2",
+                            "widget-name": "modelItem-2",
+                            "is-widget-container": "true",
+                            "model": "model-21",
+                            "idpath": "/@@PV-AUTO-ID@@000",
+                            "scale": "1.0000",
+                            "x": "0.0000",
+                            "y": "0.0000",
+                            "z": "0.0000",
+                            "rx": "0.00",
+                            "ry": "0.00",
+                            "rz": "0.00"
+                          },
+                          "name": "twx-dt-modelitem",
+                          "children": [
+                            {
+                              "name": "twx-container-content"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 },
@@ -1218,7 +1283,32 @@
                   "name": "twx-dt-model",
                   "children": [
                     {
-                      "name": "twx-container-content"
+                      "name": "twx-container-content",
+                      "children": [
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "modelItem-3",
+                            "widget-name": "modelItem-3",
+                            "is-widget-container": "true",
+                            "model": "model-23",
+                            "idpath": "/@@PV-AUTO-ID@@000",
+                            "scale": "1.0000",
+                            "x": "0.0000",
+                            "y": "0.0000",
+                            "z": "0.0000",
+                            "rx": "0.00",
+                            "ry": "0.00",
+                            "rz": "0.00"
+                          },
+                          "name": "twx-dt-modelitem",
+                          "children": [
+                            {
+                              "name": "twx-container-content"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 },
@@ -1240,7 +1330,32 @@
                   "name": "twx-dt-model",
                   "children": [
                     {
-                      "name": "twx-container-content"
+                      "name": "twx-container-content",
+                      "children": [
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "modelItem-24",
+                            "widget-name": "modelItem-24",
+                            "is-widget-container": "true",
+                            "model": "model-24",
+                            "idpath": "/@@PV-AUTO-ID@@000",
+                            "scale": "1.0000",
+                            "x": "0.0000",
+                            "y": "0.0000",
+                            "z": "0.0000",
+                            "rx": "0.00",
+                            "ry": "0.00",
+                            "rz": "0.00"
+                          },
+                          "name": "twx-dt-modelitem",
+                          "children": [
+                            {
+                              "name": "twx-container-content"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 },
@@ -1262,7 +1377,32 @@
                   "name": "twx-dt-model",
                   "children": [
                     {
-                      "name": "twx-container-content"
+                      "name": "twx-container-content",
+                      "children": [
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "modelItem-13",
+                            "widget-name": "modelItem-13",
+                            "is-widget-container": "true",
+                            "model": "model-14",
+                            "idpath": "/@@PV-AUTO-ID@@000",
+                            "scale": "1.0000",
+                            "x": "0.0000",
+                            "y": "0.0000",
+                            "z": "0.0000",
+                            "rx": "0.00",
+                            "ry": "0.00",
+                            "rz": "0.00"
+                          },
+                          "name": "twx-dt-modelitem",
+                          "children": [
+                            {
+                              "name": "twx-container-content"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 },
@@ -1284,7 +1424,32 @@
                   "name": "twx-dt-model",
                   "children": [
                     {
-                      "name": "twx-container-content"
+                      "name": "twx-container-content",
+                      "children": [
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "modelItem-23",
+                            "widget-name": "modelItem-23",
+                            "is-widget-container": "true",
+                            "model": "model-22",
+                            "idpath": "/@@PV-AUTO-ID@@000",
+                            "scale": "1.0000",
+                            "x": "0.0000",
+                            "y": "0.0000",
+                            "z": "0.0000",
+                            "rx": "0.00",
+                            "ry": "0.00",
+                            "rz": "0.00"
+                          },
+                          "name": "twx-dt-modelitem",
+                          "children": [
+                            {
+                              "name": "twx-container-content"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 },
@@ -1297,7 +1462,7 @@
                     "src": "Uploaded/DELL_Poweredge-R710.glb",
                     "scale": "0.3000",
                     "x": "4.0700",
-                    "y": "1.349",
+                    "y": "1.3490",
                     "z": "4.9903",
                     "rx": "0.00",
                     "ry": "90.00",
@@ -1327,6 +1492,56 @@
                   },
                   "name": "twx-dt-model",
                   "children": [
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "dt-label-3",
+                    "state-format-value": "text",
+                    "widget-name": "dt-label-3",
+                    "is-widget-container": "true",
+                    "text": "0 Nm",
+                    "scale": "0.1600",
+                    "x": "0.4885",
+                    "y": "1.2409",
+                    "z": "-0.1350",
+                    "rx": "0.00",
+                    "ry": "0.00",
+                    "rz": "0.00"
+                  },
+                  "name": "twx-dt-label",
+                  "children": [
+                    {
+                      "attributes": {
+                        "databind-id": "db-1728595896955",
+                        "source-type": "data",
+                        "source-label": "",
+                        "source-name": "Wall_Helper",
+                        "source-item-type": "event",
+                        "source-item-name": "DataChange.VFD_torque",
+                        "source-item-field-name": "",
+                        "binding-type": "collection_item_field",
+                        "from-expression": "app.mdl['Wall_Helper'].events['DataChange.VFD_torque']['eventData'][0]['newValue'][0].value",
+                        "to-property": "text",
+                        "base-type": "",
+                        "shape": ""
+                      },
+                      "name": "twx-databind",
+                      "children": [
+                        {
+                          "attributes": {
+                            "filter-id": "df-1728595946175",
+                            "filter-name": "redondear",
+                            "filter-body": "return (parseInt(value*100))/100 + \" Nm\""
+                          },
+                          "name": "twx-data-filter"
+                        }
+                      ]
+                    },
                     {
                       "name": "twx-container-content"
                     }
